@@ -122,7 +122,7 @@ public class PayrollSoftware {
 	public String toString() {
 		return "employeeId=" + employeeId + ", employeeName=" + employeeName + ", basicSalary=" + basicSalary + ", hra="
 				+ hra + ", medical=" + medical + ", pf=" + pf + ", netSalary=" + netSalary + ", grossSalary="
-				+ getGrossSalary();
+				+ grossSalary;
 	}
 
 }
